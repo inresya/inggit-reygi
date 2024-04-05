@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV.inggit</title>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #928686; 
+    }
+
+    .content-container {
+        max-width: 900px; 
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 0px; 
+        text-align: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content img {
+        width: 200px; 
+        height: 200px; 
+        border-radius: 50%;
+        object-fit: cover; 
+    }
+
+    .content h2 {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    .content p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+</style>
+</head>
+<body>
+    <div class="content-container">
+        <div class="content">
+            <img src="gambar.jpeg" alt="Foto">
+            <h2>INGGIT REYGI SYADEWA</h2>
+            <p>"Vengeance is eternal"</p>
+            <p>16,november,2004
+                <br>asal:kota renggat,inhu
+            </p>
+        </div>
+        <div class="content">
+            <h2>HOBBY</h2>
+            <p>renang, push rank, menggambar, design</p>
+            <h2>EXPERIENCE</h2>
+            <p>Alumni ketua guild <br> Membuat project sederhana <br> magang di BAZNAS</p>
+        </div>
+        <div class="content">
+            <h2><strong>SOCIAL MEDIA</strong></h2>
+            <p>Instagram: Ingtrygi <br> TikTok: INRESYA</p>
+            <h2>EDUCATION</h2>
+            <p>SMKN 1 RENGGAT
+                <br>SMPN 4 RENGGAT
+                <br>SDN 012 SEIBER
+            </p>
+        </div>
+        <div class="content">
+            <h2><strong>SKILS</strong></h2>
+            <p>HTML, CSS, JS</p>
+        </div>
+    </div>
+</body>
+</html>
